@@ -1,0 +1,206 @@
+{
+  "/nextjs-static-generation-reactdomserver": {
+    "title": "Next.jsによる静的生成の小技: ReactDOMServerを使ってみる",
+    "description": "getStaticPropsを使って外部SVGをインライン化する",
+    "date": [2020, 5, 17]
+  },
+  "https://yj.chibicode.com/": {
+    "title": "コンピュータサイエンスと魔法のYコンビネータ",
+    "description": "プログラミング未経験者向けの、邪道なコンピュータサイエンスの入門書",
+    "date": [2019, 9, 9]
+  },
+  "/factfulness-notes": {
+    "title": "『ファクトフルネス』批判と知的誠実さ: 7万字の脚注が、たくさん読まれることはないけれど",
+    "description": "『ファクトフルネス』へのよくある批判に対するわたしのコメントも多数掲載しています",
+    "date": [2019, 3, 10],
+    "ogImage": "/images/factfulness-notes/og-v4.jpg"
+  },
+  "https://twitter.com/chibicode/status/1093284280640331776": {
+    "date": [2019, 2, 7],
+    "title": "『ファクトフルネス』の訳者による翻訳実況動画"
+  },
+  "https://factquiz-jp.chibicode.com/": {
+    "date": [2019, 1, 30],
+    "title": "『ファクトフルネス』風？日本の事実が学べるニホンザルクイズ"
+  },
+  "https://factquiz.chibicode.com/": {
+    "date": [2019, 1, 23],
+    "title": "『ファクトフルネス』チンパンジークイズ"
+  },
+  "https://gendai.ismedia.jp/articles/-/59324": {
+    "date": [2019, 1, 16],
+    "title": "ビル・ゲイツ大絶賛の書が私たちに投げかける「重要な問い」"
+  },
+  "/factfulness-matome": {
+    "date": [2019, 1, 7],
+    "title": "『FACTFULNESS (ファクトフルネス)』書評のまとめ"
+  },
+  "https://note.mu/chibicode/n/n89a607c3eec5": {
+    "date": [2018, 12, 25],
+    "title": "「FACTFULNESS(ファクトフルネス)」の翻訳本ができるまで"
+  },
+  "/blockchain-good-bad": {
+    "date": [2018, 6, 20],
+    "title": "ブロックチェーンは、メリットよりデメリットのほうが大きいのか？"
+  },
+  "/blockchain-technology": {
+    "date": [2018, 4, 6],
+    "title": "ブロックチェーンは、技術としても未来像としても残念なものである"
+  },
+  "/tether-report": {
+    "date": [2018, 2, 3],
+    "title": "仮想通貨業界で話題の「テザー疑惑」を調べた「テザーレポート」の和訳。本当にテザーがビットコイン価格を吊り上げているのか？"
+  },
+  "/world-trip": {
+    "date": [2018, 1, 29],
+    "title": "ゆるい世界の旅を終えて、30歳になりました"
+  },
+  "/blockchain": {
+    "date": [2017, 12, 30],
+    "title": "「誰もブロックチェーンを有効活用できていない」「仮想通貨のまともな使い道は通貨投機と違法取引だけ」"
+  },
+  "/quora": {
+    "date": [2017, 12, 9],
+    "title": "シリコンバレー発Q&Aサイト「Quora」の日本版が開始されたので、Quoraの元デザイナーが20の質問に答えました"
+  },
+  "/toefl-2016": {
+    "date": [2017, 7, 2],
+    "title": "2016年のTOEFLのアジア国別平均点・偏差値ランキング"
+  },
+  "/the-prize": {
+    "date": [2017, 2, 22],
+    "title": "シリコンバレーのエンジニアが語る、誰にも悪気はなかった話"
+  },
+  "/trump-reactions": {
+    "date": [2016, 11, 20],
+    "title": "トランプ大統領就任についての所感"
+  },
+  "/7-100-women-cs-teachers-america": {
+    "date": [2016, 10, 15],
+    "title": "アメリカの学校現場でプログラミングを教える女性教員100人のプロフィール"
+  },
+  "/6-edsurge-concierge": {
+    "date": [2016, 9, 8],
+    "title": "シリコンバレーの教育ベンチャー・EdSurgeは、エドテックの「選択肢が多すぎ」問題を解決できるのか"
+  },
+  "/5-adaptive-learning": {
+    "date": [2016, 9, 7],
+    "title": "アダプティブラーニングの「選択肢が多すぎ」問題"
+  },
+  "/4-too-many-choices": {
+    "date": [2016, 9, 6],
+    "title": "教育×ITと「選択肢が多すぎ」問題"
+  },
+  "/satsuki": {
+    "date": [2016, 7, 14],
+    "title": "随筆「五月」"
+  },
+  "/3-edtech-hype-cycle": {
+    "date": [2016, 7, 1],
+    "title": "教育xITの「ハイプ・サイクル」に負けないために"
+  },
+  "/2-cs-vs-programming": {
+    "date": [2016, 6, 30],
+    "title": "「プログラミング」と「プログラミング的思考」の違いを、分かったつもりになれるヒント"
+  },
+  "/1-introduction": {
+    "date": [2016, 6, 25],
+    "title": "いたるところでプログラミングを学べる未来に、輝く先生のすがた"
+  },
+  "/betsy-anecdotes": {
+    "date": [2016, 4, 9],
+    "title": "うちの社長のエピソード"
+  },
+  "/translate-first": {
+    "date": [2016, 4, 7],
+    "title": "翻訳記事からブロガーライフをはじめよう"
+  },
+  "/presidential-bingo": {
+    "date": [2016, 3, 26],
+    "title": "進学校の中高生と、アメリカ大統領選ビンゴで遊んだ話 ~トランプ氏v.s.サンダース氏~"
+  },
+  "/silicon-valley-history": {
+    "date": [2016, 3, 8],
+    "title": "あなたが知らないシリコンバレーの歴史"
+  },
+  "/hiking-in-silicon-valley-san-francisco": {
+    "date": [2016, 3, 3],
+    "title": "シリコンバレー・サンフランシスコ観光者向け、ハイキングコースまとめ"
+  },
+  "/jp-sv-internship": {
+    "date": [2016, 2, 29],
+    "title": "シリコンバレーでインターンしたい学生さんへ"
+  },
+  "/tanpopo-anne-nintendo": {
+    "date": [2016, 2, 6],
+    "title": "「タンポポ丘・アンネの家・任天堂」に置いてきたもの"
+  },
+  "/nhk-dilemma": {
+    "date": [2015, 12, 25],
+    "title": "「ニッポンのジレンマ」元日スペシャルに出たとき、カンペに書かれていたこと"
+  },
+  "/yomikaki-soroban-monogatari": {
+    "date": [2015, 11, 2],
+    "title": "「新しい教育」の話をしよう"
+  },
+  "/rebuild-fm": {
+    "date": [2015, 10, 26],
+    "title": "人気ポッドキャスト・Rebuild.fmに出演しました"
+  },
+  "/sf-hell": {
+    "date": [2015, 9, 23],
+    "title": "#地獄のサンフランシスコ - 講演のスライドと動画"
+  },
+  "/how-edsurge-started": {
+    "date": [2015, 6, 28],
+    "title": "EdSurgeとはどんな会社か？とある教育メディアがシリコンバレーで生まれた話"
+  },
+  "/silicon-valley-hell": {
+    "date": [2015, 5, 11],
+    "title": "「恐怖、シリコンバレーの真実！！！」「#地獄のシリコンバレー」についての私見"
+  },
+  "/nikkei-bp": {
+    "date": [2015, 5, 7],
+    "title": "シリコンバレーから日本の高校生への真っ直ぐなメール"
+  },
+  "/3-troubled-crusade-1-5": {
+    "date": [2015, 2, 2],
+    "title": "アメリカの教科書はなぜ重たいのか"
+  },
+  "/2-troubled-crusade-1": {
+    "date": [2015, 1, 23],
+    "title": "教育とカネの話"
+  },
+  "/doing-business-in-japan": {
+    "date": [2014, 11, 26],
+    "title": "ビジネス・イン・ジャパン"
+  },
+  "/japan": {
+    "date": [2014, 3, 12],
+    "title": "「どうすれば日本は良くなるか」という質問に対する、わたしなりの答え"
+  },
+  "/young-japanese-work-abroad": {
+    "date": [2013, 11, 18],
+    "title": "「若者は海外に出るべき」とは、わたしは言えない"
+  },
+  "/voice-exit": {
+    "date": [2013, 11, 6],
+    "title": "Yコンビネーター主催のイベントに参加してから、「たたかう」と「にげる」について考えるようになったという話"
+  },
+  "/osaka": {
+    "date": [2013, 7, 19],
+    "title": "大阪府立天王寺高等学校での講演「アメリカの大学について」"
+  },
+  "/glasses": {
+    "date": [2013, 5, 24],
+    "title": "メガネが壊れたときの話"
+  },
+  "/engineer-type-shu-uesugi-5": {
+    "date": [2013, 1, 9],
+    "title": "日米で半年ニートをするまで気付かなかった、「お金・理念・コード」より大切なこと"
+  },
+  "/engineer-type-shu-uesugi-4": {
+    "date": [2012, 12, 18],
+    "title": "海外での転職を考えているエンジニアに読んでほしい、シチューさんの話"
+  }
+}
