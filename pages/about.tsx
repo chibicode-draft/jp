@@ -57,7 +57,7 @@ export default function Page({ emojiToSvg }: PostProps) {
           </Li>
           <Li>
             <strong>英語サイト:</strong>{' '}
-            <A href="https://chibicode.com">@chibicode</A>
+            <A href="https://chibicode.com">chibicode.com</A>
           </Li>
         </Ul>
         <H3>このサイトについて</H3>
