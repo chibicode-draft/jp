@@ -23,7 +23,8 @@ const TwitterEmbed = ({ id, hideCard, hideConversation }: Props) => {
         window.twttr &&
         window.twttr.widgets &&
         window.twttr.widgets.createTweet &&
-        wrapperEl.current
+        wrapperEl.current &&
+        !twitterLoaded
       ) {
         wrapperEl.current.innerHTML = ''
         window.twttr.widgets
