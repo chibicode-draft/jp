@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 import { Props as LayoutProps } from 'src/components/Layout'
 import { SITE_TITLE } from 'src/lib/constants'
-import { GA_TRACKING_ID } from 'src/lib/gtag'
 
 type Props = {
   type: LayoutProps['type']
@@ -15,7 +14,6 @@ export default function Meta({ type }: Props) {
         href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap"
         rel="stylesheet"
       />
-      <script async src="https://platform.twitter.com/widgets.js" />
       <meta property="og:type" content="article" />
       <meta property="og:locale" content="ja_JP" />
       <meta
@@ -54,19 +52,6 @@ export default function Meta({ type }: Props) {
       <meta name="msapplication-TileColor" content="#f6e05e" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#ffffff" />
-      <script
-        async
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', '${GA_TRACKING_ID}', { 'anonymize_ip': true });`,
-        }}
-      />
     </Head>
   )
 }
