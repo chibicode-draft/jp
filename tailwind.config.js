@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     fontFamily: {
       serif:
-        'Noto Serif JP, Hiragino Mincho ProN,ヒラギノ明朝 Pro W6,Hiragino Mincho Pro,HGS明朝E,Yu Mincho,YuMincho,ＭＳ Ｐ明朝,serif',
+        '"Noto Serif JP", "Hiragino Mincho ProN","ヒラギノ明朝 Pro W6","Hiragino Mincho Pro","HGS明朝E","Yu Mincho","YuMincho","ＭＳ Ｐ明朝",serif',
       mono:
-        '"Iosevka Slab Web", Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,Bitstream Vera Sans Mono, Courier New, monospace',
+        '"Iosevka Slab Web", "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono","Bitstream Vera Sans Mono", "Courier New", monospace',
     },
     extend: {
       colors: {
