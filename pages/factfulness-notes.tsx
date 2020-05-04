@@ -23,7 +23,10 @@ export default function Page({ emojiToSvg }: PostProps) {
   return (
     <Layout type="post" emojiToSvg={emojiToSvg}>
       <Post href="/factfulness-notes">
-        <Img src="/images/factfulness-notes/og-v4@0.5x.jpg" alt="" />
+        <Img
+          src="/images/factfulness-notes/og-v4@0.5x.jpg"
+          alt="『ファクトフルネス』批判と知的誠実さ: 7万字の脚注が、たくさん読まれることはないけれど"
+        />
         <P>
           『
           <A href="https://www.amazon.co.jp/dp/4822289605/ref=cm_sw_em_r_mt_dp_U_h20QDbG5PNQK4">
@@ -71,7 +74,7 @@ export default function Page({ emojiToSvg }: PostProps) {
           』の発売日(2019年1月11日)に、わたしは東京の本屋何軒かに寄った。すると、かなりの確率で『日本国紀』が近くに並べられていた。
         </P>
 
-        <Img src="/images/factfulness-notes/nihon-kokki.jpg" alt="" />
+        <Img src="/images/factfulness-notes/nihon-kokki.jpg" alt="日本国紀" />
         <P>
           ネットで本書について調べてみたところ、やまもといちろうさんの「
           <A href="https://news.yahoo.co.jp/byline/yamamotoichiro/20181222-00108643/">
@@ -215,7 +218,9 @@ export default function Page({ emojiToSvg }: PostProps) {
           </strong>
         </P>
         <P>
-          ここではすべての脚注を紹介することはしない。かわりに、わたしがおすすめしたい**上位10項目(順不同)**を抜粋した。10項目ともこのページに埋め込んでいるので、ページを移動せずに読むことができる。
+          ここではすべての脚注を紹介することはしない。かわりに、わたしがおすすめしたい
+          <strong>上位10項目(順不同)</strong>
+          を抜粋した。10項目ともこのページに埋め込んでいるので、ページを移動せずに読むことができる。
         </P>
         <P>
           <strong>
@@ -308,7 +313,11 @@ export default function Page({ emojiToSvg }: PostProps) {
           <A href="https://factfulness-source.chibicode.com/?p=79-graph-nuclear-arms">
             こちらの項目を参照
           </A>
-          のこと。**ほかのグラフでも、グラフの最大値と最小値に共通する単位で割った数字を表示しているから、核兵器の数もそれと合わせているだけだ。**たとえば
+          のこと。
+          <strong>
+            ほかのグラフでも、グラフの最大値と最小値に共通する単位で割った数字を表示しているから、核兵器の数もそれと合わせているだけだ。
+          </strong>
+          たとえば
           <A href="https://factfulness-source.chibicode.com/?p=80-graph-harvest">
             農作物の収穫のグラフ
           </A>
@@ -778,7 +787,10 @@ export default function Page({ emojiToSvg }: PostProps) {
           わたしが一切制作・校正に関与せず、気づいたら出回っていた『ファクトフルネス』の交通広告のコピーは、「世界の真実がここにある」だ。
         </P>
 
-        <Img src="/images/factfulness-notes/factfulness-ad.jpg" alt="" />
+        <Img
+          src="/images/factfulness-notes/factfulness-ad.jpg"
+          alt="ファクトフルネスの広告"
+        />
         <P>
           個人的には、なんとなく「これが真実だ」と言っている気がして、あまり好きになれない。
         </P>
@@ -801,7 +813,7 @@ export default function Page({ emojiToSvg }: PostProps) {
           」に変更してくださいました。ご対応、ありがとうございます。
         </P>
 
-        <Img src="/images/factfulness-notes/new-ad.png" alt="" />
+        <Img src="/images/factfulness-notes/new-ad.png" alt="世界の真実" />
         <H3>
           でも、良くなっている事実にばかり載せることによる弊害は、あなたが思うよりも少ない
         </H3>
@@ -875,7 +887,11 @@ export default function Page({ emojiToSvg }: PostProps) {
         </P>
         <P>つまり、本書にはこれ以上ページ数の余裕がない。</P>
         <P>
-          悪くなっている事実を全章にまんべんなく追加しようと思ったら、内容をかなり削らないといけない。しかし個人的には、**本書を訳す中でも、「冗長だな」と思ったところはたくさんあったが、かといって「これは削るべきだった」という部分はあまり思い浮かばなかった。**説明を削れば理解を妨げるし、著者が経験したエピソードを削れば魅力も削れてしまう。
+          悪くなっている事実を全章にまんべんなく追加しようと思ったら、内容をかなり削らないといけない。しかし個人的には、
+          <strong>
+            本書を訳す中でも、「冗長だな」と思ったところはたくさんあったが、かといって「これは削るべきだった」という部分はあまり思い浮かばなかった。
+          </strong>
+          説明を削れば理解を妨げるし、著者が経験したエピソードを削れば魅力も削れてしまう。
         </P>
         <P>
           「この本は無駄に長い。半分くらいのページ数でよかった」という批判も多い。でも実際に、本書のわかりやすさや魅力を一切落とさずに文字数を削ろうとすると、実際に短縮可能な部分は全体の5%にもならないのではないか。少なくとも、本書を何度も校正したわたしはそう思う(詳しくは
@@ -1107,7 +1123,10 @@ export default function Page({ emojiToSvg }: PostProps) {
           ライセンスで無償で公開されている。
         </P>
 
-        <Img src="/images/factfulness-notes/dollar-street.jpg" alt="" />
+        <Img
+          src="/images/factfulness-notes/dollar-street.jpg"
+          alt="ドル・ストリートを使って世界中のトイレの画像をひと月の所得ごとに4種類に分けた図"
+        />
         <P>
           同じ国でも、所得によってトイレの見た目はまったく違う。違う国でも、所得が近ければトイレの見た目は近い。ドル・ストリートを見れば、国や文化ではなく、所得が人々の暮らしを決めることがわかる。またドル・ストリートでは、トイレ以外にも、さまざまな物の写真を見ることができる。
         </P>
@@ -1278,7 +1297,9 @@ export default function Page({ emojiToSvg }: PostProps) {
         </P>
         <TwitterEmbed id="1105311874474602497" />
         <P>
-          ただ、本文自体に番号を振らなくても、**ウェブ脚注で本文をもう一度引用することは可能です。**つまりウェブ脚注に「○○ページの何行目の『…』という文について。これのデータ元は…」という書き方をする。こうすれば本文に番号を振ることなく、本文と脚注を完全対応させることができます。
+          ただ、本文自体に番号を振らなくても、
+          <strong>ウェブ脚注で本文をもう一度引用することは可能です。</strong>
+          つまりウェブ脚注に「○○ページの何行目の『…』という文について。これのデータ元は…」という書き方をする。こうすれば本文に番号を振ることなく、本文と脚注を完全対応させることができます。
         </P>
         <P>
           原著の著者はそれを全くやっておらず、ゆえにわたしも日本語訳でやっていません。もちろん「おそらくこの脚注は、この文のことを言っているのだろうな」と想像はつきますが、誠実さに欠けると言われても仕方はありません。
@@ -1447,7 +1468,7 @@ export default function Page({ emojiToSvg }: PostProps) {
 
         <Img
           src="/images/factfulness-notes/factfulness-graph-annotated.png"
-          alt=""
+          alt="「世界はどんどん悪くなっている」と答えた人の割合のグラフ"
         />
       </Post>
     </Layout>
