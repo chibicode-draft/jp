@@ -24,7 +24,7 @@ module.exports = {
         ...[...oldPosts, ...hiddenPosts]
           .filter(({ href }) => href.startsWith('/'))
           .map(({ href }) => ({
-            source: `${href}`,
+            source: `${href}{/}?`,
             destination: `https://jp-2019.chibicode.com${href}`,
           })),
       ]
