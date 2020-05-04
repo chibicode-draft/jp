@@ -21,7 +21,7 @@ module.exports = {
           source: '/static/:path*',
           destination: 'https://jp-2019.chibicode.com/static/:path*',
         },
-        [...oldPosts, ...hiddenPosts]
+        ...[...oldPosts, ...hiddenPosts]
           .filter(({ href }) => href.startsWith('/'))
           .map(({ href }) => ({
             source: `${href}`,
