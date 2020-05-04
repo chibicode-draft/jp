@@ -10,10 +10,6 @@ type Props = {
 export default function Meta({ type }: Props) {
   return (
     <Head>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap"
-        rel="stylesheet"
-      />
       <meta property="og:type" content="article" />
       <meta property="og:locale" content="ja_JP" />
       <meta
