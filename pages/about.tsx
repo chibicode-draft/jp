@@ -4,7 +4,7 @@ import postGetStaticProps, { PostProps } from 'src/lib/postGetStaticProps'
 import PostTitle from 'src/components/PostTitle'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
-import { A, P, H2, H3, Ul, Li } from 'src/components/Tags'
+import { E, A, P, H2, H3, Ul, Li } from 'src/components/Tags'
 
 export const getStaticProps = postGetStaticProps(Page)
 
@@ -62,6 +62,10 @@ export default function Page({ emojiToSvg }: PostProps) {
         </Ul>
         <H3>このサイトについて</H3>
         <Ul>
+          <Li>
+            <E>🌾</E> <E>🙇🏻</E>{' '}
+            は、「実るほど頭を垂れる稲穂かな」という意味です。
+          </Li>
           <Li>
             <A href="https://nextjs.org/">Next.js</A>で構築し、
             <A href="https://vercel.com/">Vercel</A>にデプロイしています。

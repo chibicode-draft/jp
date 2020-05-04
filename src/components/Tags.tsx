@@ -5,7 +5,7 @@ import cn from 'classnames'
 
 export function E({ children, label }: { children: string; label?: string }) {
   return (
-    <Emoji className="text-xl leading-none" label={label}>
+    <Emoji className="text-xl leading-none align-text-bottom" label={label}>
       {children}
     </Emoji>
   )
@@ -16,11 +16,11 @@ export function P(props: JSX.IntrinsicElements['p']) {
 }
 
 export function Ul(props: JSX.IntrinsicElements['ul']) {
-  return <ul className="my-4 list-inside list-disc" {...props} />
+  return <ul className="my-4 ml-5 list-disc" {...props} />
 }
 
 export function Ol(props: JSX.IntrinsicElements['ol']) {
-  return <ol className="my-4 list-inside list-decimal" {...props} />
+  return <ol className="my-4 ml-5 list-decimal" {...props} />
 }
 
 export function Li(props: JSX.IntrinsicElements['li']) {
