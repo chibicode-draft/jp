@@ -12,15 +12,15 @@ export function E({ children, label }: { children: string; label?: string }) {
 }
 
 export function P(props: JSX.IntrinsicElements['p']) {
-  return <p className="my-4" {...props} />
+  return <p className="my-6" {...props} />
 }
 
 export function Ul(props: JSX.IntrinsicElements['ul']) {
-  return <ul className="my-4 ml-5 list-disc" {...props} />
+  return <ul className="my-6 ml-5 list-disc" {...props} />
 }
 
 export function Ol(props: JSX.IntrinsicElements['ol']) {
-  return <ol className="my-4 ml-5 list-decimal" {...props} />
+  return <ol className="my-6 ml-5 list-decimal" {...props} />
 }
 
 export function Li(props: JSX.IntrinsicElements['li']) {
@@ -32,7 +32,7 @@ export function A(props: JSX.IntrinsicElements['a']) {
 }
 
 export function H4(props: JSX.IntrinsicElements['h4']) {
-  return <h4 className="text-lg font-bold my-4" {...props}></h4>
+  return <h4 className="text-lg font-bold my-6" {...props}></h4>
 }
 
 export function H3({
@@ -43,8 +43,8 @@ export function H3({
 } & JSX.IntrinsicElements['h3']) {
   return (
     <h3
-      className={cn('text-xl font-bold leading-relaxed mb-4', {
-        'mt-16': !noTopMargin,
+      className={cn('text-xl font-bold leading-relaxed mb-6', {
+        'mt-12': !noTopMargin,
       })}
       {...props}
     ></h3>
@@ -54,7 +54,7 @@ export function H3({
 export function H2(props: JSX.IntrinsicElements['h2']) {
   return (
     <h2
-      className="text-2xl font-bold leading-normal mt-16 mb-4"
+      className="text-2xl font-bold leading-normal mt-12 mb-6"
       {...props}
     ></h2>
   )
@@ -63,7 +63,7 @@ export function H2(props: JSX.IntrinsicElements['h2']) {
 export function Hr(props: JSX.IntrinsicElements['div']) {
   return (
     <div
-      className="my-16 flex justify-center text-2xl"
+      className="my-12 flex justify-center text-2xl"
       {...props}
       role="separator"
     >
@@ -76,12 +76,12 @@ export function Hr(props: JSX.IntrinsicElements['div']) {
 
 export function Blockquote(props: JSX.IntrinsicElements['blockquote']) {
   return (
-    <blockquote className="my-4 pl-4 border-l-2 border-gray-900" {...props} />
+    <blockquote className="my-6 pl-4 border-l-2 border-gray-900" {...props} />
   )
 }
 
 export function Figure(props: JSX.IntrinsicElements['figure']) {
-  return <figure className="my-8" {...props} />
+  return <figure className="my-6" {...props} />
 }
 
 export function Img({
