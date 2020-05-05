@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from 'src/components/Layout'
 import postGetStaticProps, { PostProps } from 'src/lib/postGetStaticProps'
-import PostTitle from 'src/components/PostTitle'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
 import { E, A, P, H2, H3, Ul, Li } from 'src/components/Tags'
@@ -21,9 +20,13 @@ export default function Page({ emojiToSvg }: PostProps) {
         <meta property="og:image" content={`${SITE_URL}/images/og.png`} />
       </Head>
       <section className="leading-loose">
-        <h1 className="py-4 my-12">
-          <PostTitle>About</PostTitle>
-        </h1>
+        <div className="my-16">
+          <img
+            src="/images/chibicode.jpg"
+            alt="上杉周作"
+            className="rounded-full w-56 block mx-auto shadow-soft"
+          />
+        </div>
         <H2>上杉周作</H2>
         <P>
           『

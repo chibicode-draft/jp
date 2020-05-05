@@ -17,20 +17,20 @@ export default function Footer({ type }: Props) {
           ← Home
         </Link>
       )}
-      {type === 'home' && (
-        <Link
-          href="/archive"
-          className="pb-1 hover-border-styles hv:hover:border-yellow-400"
-        >
-          Archive
-        </Link>
-      )}
       {type !== 'about' && (
         <Link
           href="/about"
           className="pb-1 hover-border-styles hv:hover:border-yellow-400"
         >
           About
+        </Link>
+      )}
+      {type === 'home' && (
+        <Link
+          href="/archive"
+          className="pb-1 hover-border-styles hv:hover:border-yellow-400"
+        >
+          Archive
         </Link>
       )}
     </footer>
