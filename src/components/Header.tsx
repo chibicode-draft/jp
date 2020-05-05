@@ -11,38 +11,27 @@ type Props = {
 export default function Header({ type }: Props) {
   return (
     <header className="pb-4">
-      <div
-        className={cn('mb-2', {
-          'text-center': type === 'home',
-        })}
-      >
-        <Link
-          href="/"
-          title="実るほど頭を垂れる稲穂かな"
-          className={cn(
-            'hover-border-styles inline-flex justify-center pb-2 hover:border-yellow-400',
-            {
-              'text-5xl': type === 'home',
-              'text-3xl': type !== 'home',
-            }
-          )}
-        >
+      {type === 'home' && (
+        <div className="text-center pb-1 text-5xl">
           <Emoji className="pr-1">🌾</Emoji>
           <Emoji className="pl-1">🙇🏻</Emoji>
-        </Link>
-      </div>
+        </div>
+      )}
       <div
         className={cn('flex', {
           'justify-center': type === 'home',
-          'justify-between': type !== 'home',
+          'justify-between items-end': type !== 'home',
         })}
       >
         {type !== 'home' && (
-          <Link
-            href="/"
-            className="hover-border-styles mono-styles inline-flex pb-1 hover:border-yellow-400"
-          >
-            ← Home
+          <Link href="/" className="group">
+            <span className="block text-3xl pb-2">
+              <Emoji className="pr-1">🌾</Emoji>
+              <Emoji className="pl-1">🙇🏻</Emoji>
+            </span>
+            <span className="mono-styles block pb-1 hover-border-styles group-hover:border-yellow-400">
+              ← Home
+            </span>
           </Link>
         )}
         <Link
