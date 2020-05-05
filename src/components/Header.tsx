@@ -29,14 +29,14 @@ export default function Header({ type }: Props) {
               <Emoji className="pr-1">🌾</Emoji>
               <Emoji className="pl-1">🙇🏻</Emoji>
             </span>
-            <span className="mono-styles block pb-1 hover-border-styles group-hover:border-yellow-400">
+            <span className="mono-styles block pb-1 hover-border-styles hv:group-hover:border-yellow-400">
               ← Home
             </span>
           </Link>
         )}
         <Link
           href="https://twitter.com/chibicode"
-          className="hover-border-styles mono-styles inline-flex pb-1 hover:border-yellow-400"
+          className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-yellow-400"
         >
           @chibicode
         </Link>

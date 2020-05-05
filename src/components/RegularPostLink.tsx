@@ -14,7 +14,7 @@ export default function RegularPostLink({ title, href, date, old }: Props) {
     <Link old={old} href={href} className="block group py-3 my-6">
       <Date date={date} />
       <h2 className="mb-3">
-        <span className="hover-border-styles group-hover:border-yellow-400 text-xl leading-relaxed">
+        <span className="hover-border-styles hv:group-hover:border-yellow-400 text-xl leading-relaxed">
           {title}
         </span>
       </h2>

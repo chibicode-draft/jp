@@ -12,7 +12,7 @@ export default function Footer({ type }: Props) {
       {type !== 'home' && (
         <Link
           href="/"
-          className="pb-1 hover-border-styles hover:border-yellow-400"
+          className="pb-1 hover-border-styles hv:hover:border-yellow-400"
         >
           ← Home
         </Link>
@@ -20,7 +20,7 @@ export default function Footer({ type }: Props) {
       {type === 'home' && (
         <Link
           href="/archive"
-          className="pb-1 hover-border-styles hover:border-yellow-400"
+          className="pb-1 hover-border-styles hv:hover:border-yellow-400"
         >
           Archive
         </Link>
@@ -28,7 +28,7 @@ export default function Footer({ type }: Props) {
       {type !== 'about' && (
         <Link
           href="/about"
-          className="pb-1 hover-border-styles hover:border-yellow-400"
+          className="pb-1 hover-border-styles hv:hover:border-yellow-400"
         >
           About
         </Link>

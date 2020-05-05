@@ -53,7 +53,7 @@ export default function Page({ emojiToSvg }: PostProps) {
       ) : (
         <div className="my-16 text-center">
           <button
-            className="text-sm hover-border-styles hover:border-yellow-400 focus:outline-none"
+            className="text-sm hover-border-styles hv:hover:border-yellow-400 focus:outline-none"
             onClick={() => setOtherVisible(true)}
           >
             その他の記事を見る

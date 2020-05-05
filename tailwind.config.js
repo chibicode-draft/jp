@@ -34,7 +34,10 @@ module.exports = {
       },
       boxShadow: {
         soft: '0 10px 30px rgba(0, 0, 0, 0.12)',
-        hover: '0 20px 60px rgba(0, 0, 0, 0.12)',
+        large: '0 20px 60px rgba(0, 0, 0, 0.12)',
+      },
+      screens: {
+        hv: { raw: '(hover: hover)' },
       },
     },
   },

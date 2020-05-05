@@ -28,7 +28,7 @@ export function Li(props: JSX.IntrinsicElements['li']) {
 }
 
 export function A(props: JSX.IntrinsicElements['a']) {
-  return <Link className="underline hover:bg-yellow-400" {...props}></Link>
+  return <Link className="underline hv:hover:bg-yellow-400" {...props}></Link>
 }
 
 export function H4(props: JSX.IntrinsicElements['h4']) {
@@ -104,7 +104,7 @@ export function Img({
         'max-w-full': width !== 'sm' && width !== 'md',
         'w-full': width === 'sm' || width === 'md',
         'w-auto': width !== 'sm' && width !== 'md',
-        'hover:shadow-hover': shadowHover,
+        'hv:hover:shadow-large': shadowHover,
         'my-16': !caption && !coverImage,
         'mb-6': caption && !coverImage,
         'mt-6 mb-16': coverImage,
