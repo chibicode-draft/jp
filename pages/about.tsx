@@ -48,7 +48,7 @@ export default function Page({ emojiToSvg }: PostProps) {
           </Li>
           <Li>
             <strong>Facebook:</strong>{' '}
-            <A href="https://www.facebook.com/shu">Shu Uesugi</A>
+            <A href="https://www.facebook.com/shu">上杉周作</A>
           </Li>
           <Li>
             <strong>Twitter:</strong>{' '}
