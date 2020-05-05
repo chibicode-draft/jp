@@ -3,7 +3,7 @@ import postData from 'src/contents/postData.json'
 import Date from 'src/components/Date'
 import PostTitle from 'src/components/PostTitle'
 import Emoji from 'src/components/Emoji'
-import { P } from 'src/components/Tags'
+import { P, Img } from 'src/components/Tags'
 import FeaturedPostLink from 'src/components/FeaturedPostLink'
 import featuredPosts from 'src/contents/featuredPosts.json'
 import Head from 'next/head'
@@ -39,8 +39,17 @@ export default function Post({ href, children }: Props) {
         <h1 className="mb-3">
           <PostTitle>{postData[href]['title']}</PostTitle>
         </h1>
-        <h4 className="mb-12 leading-loose">{postData[href]['description']}</h4>
-        <div className="leading-loose">{children}</div>
+        <h4 className="leading-loose font-sans text-sm">
+          {postData[href]['description']}
+        </h4>
+        <div className="leading-loose">
+          <Img
+            coverImage
+            src={postData[href]['ogImage']}
+            alt={postData[href]['title']}
+          />
+          {children}
+        </div>
       </article>
       <div className="py-16">
         <P className="text-center text-sm">ありがとうございました</P>

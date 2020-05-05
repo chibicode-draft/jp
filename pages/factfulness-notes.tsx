@@ -23,10 +23,6 @@ export default function Page({ emojiToSvg }: PostProps) {
   return (
     <Layout type="post" emojiToSvg={emojiToSvg}>
       <Post href="/factfulness-notes">
-        <Img
-          src="/images/factfulness-notes/og-v4@0.5x.jpg"
-          alt="『ファクトフルネス』批判と知的誠実さ: 7万字の脚注が、たくさん読まれることはないけれど"
-        />
         <P>
           『
           <A href="https://www.amazon.co.jp/dp/4822289605/ref=cm_sw_em_r_mt_dp_U_h20QDbG5PNQK4">

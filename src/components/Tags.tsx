@@ -88,10 +88,12 @@ export function Img({
   width,
   shadowHover,
   caption,
+  coverImage,
   ...props
 }: {
   width?: 'sm' | 'md'
   caption?: React.ReactNode
+  coverImage?: boolean
   shadowHover?: boolean
 } & JSX.IntrinsicElements['img']) {
   const imgTag = (
@@ -103,8 +105,9 @@ export function Img({
         'w-full': width === 'sm' || width === 'md',
         'w-auto': width !== 'sm' && width !== 'md',
         'hover:shadow-hover': shadowHover,
-        'my-16': !caption,
-        'mb-6': caption,
+        'my-16': !caption && !coverImage,
+        'mb-6': caption && !coverImage,
+        'mt-6 mb-16': coverImage,
       })}
       {...props}
     />
