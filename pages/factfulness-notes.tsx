@@ -42,18 +42,10 @@ export default function Page({ emojiToSvg }: PostProps) {
         </P>
         <H3>目次</H3>
         <Ol>
-          <Li>
-            <strong>紙媒体の限界</strong>
-          </Li>
-          <Li>
-            <strong>ウェブ脚注✕10</strong>
-          </Li>
-          <Li>
-            <strong>紙媒体の限界、再び</strong>
-          </Li>
-          <Li>
-            <strong>正しい姿勢を大切に</strong>
-          </Li>
+          <Li>紙媒体の限界</Li>
+          <Li>ウェブ脚注✕10</Li>
+          <Li>紙媒体の限界、再び</Li>
+          <Li>正しい姿勢を大切に</Li>
         </Ol>
         <Hr />
         <H2>1 / 紙媒体の限界</H2>
@@ -203,9 +195,9 @@ export default function Page({ emojiToSvg }: PostProps) {
           src="/images/factfulness-notes/og-index.png"
           caption={
             <>
-              <a href="https://factfulness-source.chibicode.com/">
+              <A href="https://factfulness-source.chibicode.com/">
                 『ファクトフルネス』ウェブ脚注(日本語)
-              </a>
+              </A>
             </>
           }
         />
@@ -433,9 +425,9 @@ export default function Page({ emojiToSvg }: PostProps) {
           caption={
             <>
               ちなみに第1刷では「絶滅の危険度が計測されている種の数」というタイトルだったが、
-              <a href="https://factfulness-source.chibicode.com/?p=errata-11">
+              <A href="https://factfulness-source.chibicode.com/?p=errata-11">
                 増刷で修正した。
-              </a>
+              </A>
             </>
           }
         />
@@ -1047,9 +1039,9 @@ export default function Page({ emojiToSvg }: PostProps) {
         <Img
           src="/images/factfulness-notes/og-errata.png"
           caption={
-            <a href="https://factfulness-source.chibicode.com/errata">
+            <A href="https://factfulness-source.chibicode.com/errata">
               『ファクトフルネス』の正誤表
-            </a>
+            </A>
           }
         />
         <P>
@@ -1214,9 +1206,9 @@ export default function Page({ emojiToSvg }: PostProps) {
           caption={
             <>
               ちなみに文字の背景は著作権フリーの
-              <a href="https://unsplash.com/photos/Cpu-CT9d3ts">
+              <A href="https://unsplash.com/photos/Cpu-CT9d3ts">
                 こちらの画像。
-              </a>
+              </A>
             </>
           }
         />

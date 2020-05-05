@@ -9,6 +9,8 @@ module.exports = {
         '"Hiragino Mincho ProN","ヒラギノ明朝 Pro W6","Hiragino Mincho Pro","HGS明朝E","Yu Mincho","YuMincho","ＭＳ Ｐ明朝",serif',
       mono:
         '"Iosevka Slab Web", "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono","Bitstream Vera Sans Mono", "Courier New", monospace',
+      sans:
+        '-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Hiragino Kaku Gothic ProN","Hiragino Sans","ヒラギノ角ゴ ProN W3",Arial,メイリオ,Meiryo,sans-serif',
     },
     extend: {
       colors: {

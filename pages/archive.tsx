@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from 'src/components/Layout'
 import postGetStaticProps, { PostProps } from 'src/lib/postGetStaticProps'
 import RegularPostLink from 'src/components/RegularPostLink'
 import PostTitle from 'src/components/PostTitle'
 import oldPosts from 'src/contents/oldPosts.json'
+import hiddenPosts from 'src/contents/hiddenPosts.json'
 import postData from 'src/contents/postData.json'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
+import { Hr } from 'src/components/Tags'
 
 export const getStaticProps = postGetStaticProps(Page)
 
 export default function Page({ emojiToSvg }: PostProps) {
+  const [otherVisbile, setOtherVisible] = useState(false)
   return (
     <Layout type="archive" emojiToSvg={emojiToSvg}>
       <Head>
@@ -34,6 +37,29 @@ export default function Page({ emojiToSvg }: PostProps) {
           old
         />
       ))}
+      {otherVisbile ? (
+        <>
+          <Hr />
+          {hiddenPosts.map(({ href }) => (
+            <RegularPostLink
+              key={href}
+              href={href}
+              title={postData[href]['title']}
+              date={postData[href]['date']}
+              old
+            />
+          ))}
+        </>
+      ) : (
+        <div className="my-16 text-center">
+          <button
+            className="text-sm hover-border-styles hover:border-yellow-400 focus:outline-none"
+            onClick={() => setOtherVisible(true)}
+          >
+            その他の記事を見る
+          </button>
+        </div>
+      )}
     </Layout>
   )
 }

@@ -32,7 +32,7 @@ export function A(props: JSX.IntrinsicElements['a']) {
 }
 
 export function H4(props: JSX.IntrinsicElements['h4']) {
-  return <h4 className="text-lg font-bold my-6" {...props}></h4>
+  return <h4 className="text-lg font-normal font-sans my-6" {...props}></h4>
 }
 
 export function H3({
@@ -43,8 +43,8 @@ export function H3({
 } & JSX.IntrinsicElements['h3']) {
   return (
     <h3
-      className={cn('text-xl font-bold leading-relaxed mb-6', {
-        'mt-12': !noTopMargin,
+      className={cn('text-xl font-normal font-sans leading-relaxed mb-6', {
+        'mt-16': !noTopMargin,
       })}
       {...props}
     ></h3>
@@ -54,7 +54,7 @@ export function H3({
 export function H2(props: JSX.IntrinsicElements['h2']) {
   return (
     <h2
-      className="text-2xl font-bold leading-normal mt-12 mb-6"
+      className="text-2xl font-normal font-sans leading-normal mt-16 mb-6"
       {...props}
     ></h2>
   )
@@ -63,7 +63,7 @@ export function H2(props: JSX.IntrinsicElements['h2']) {
 export function Hr(props: JSX.IntrinsicElements['div']) {
   return (
     <div
-      className="my-12 flex justify-center text-2xl"
+      className="my-16 flex justify-center text-2xl"
       {...props}
       role="separator"
     >
@@ -96,14 +96,14 @@ export function Img({
 } & JSX.IntrinsicElements['img']) {
   const imgTag = (
     <img
-      className={cn('my-12 block mx-auto shadow-soft', {
+      className={cn('my-16 block mx-auto shadow-soft', {
         'max-w-sm': width === 'sm',
         'max-w-md': width === 'md',
         'max-w-full': width !== 'sm' && width !== 'md',
         'w-full': width === 'sm' || width === 'md',
         'w-auto': width !== 'sm' && width !== 'md',
         'hover:shadow-hover': shadowHover,
-        'my-12': !caption,
+        'my-16': !caption,
         'mb-6': caption,
       })}
       {...props}
@@ -111,7 +111,7 @@ export function Img({
   )
 
   return caption ? (
-    <figure className="my-12">
+    <figure className="my-16">
       {imgTag}
       <figcaption className="text-sm text-center">{caption}</figcaption>
     </figure>
