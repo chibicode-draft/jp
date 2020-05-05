@@ -82,7 +82,7 @@ export default function Page({ emojiToSvg }: PostProps) {
             当サイトではGoogleアナリティクスを利用しており、トラフィックデータの収集のためにCookieを使用しています。データは(IPアドレスを含め)匿名で収集されており、個人を特定するものではありません。
           </Li>
           <Li>
-            <A href="/archive">過去の記事はこちら</A>。
+            <A href="/archive">過去ログはこちら</A>。
           </Li>
         </Ul>
       </section>

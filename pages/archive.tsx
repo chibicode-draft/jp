@@ -17,7 +17,7 @@ export default function Page({ emojiToSvg }: PostProps) {
   return (
     <Layout type="archive" emojiToSvg={emojiToSvg}>
       <Head>
-        <title key="title">過去の記事 — {SITE_TITLE}</title>
+        <title key="title">過去ログ — {SITE_TITLE}</title>
         <meta property="og:title" content="Archive" />
         <meta property="og:url" content={`${SITE_URL}/archive`} />
         <link rel="canonical" href={`${SITE_URL}/archive`} />
@@ -26,7 +26,7 @@ export default function Page({ emojiToSvg }: PostProps) {
         <meta property="og:image" content={`${SITE_URL}/images/og.png`} />
       </Head>
       <h1 className="py-4 my-12">
-        <PostTitle>過去の記事</PostTitle>
+        <PostTitle>過去ログ</PostTitle>
       </h1>
       {oldPosts.map(({ href }) => (
         <RegularPostLink
