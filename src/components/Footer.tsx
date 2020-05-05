@@ -25,14 +25,6 @@ export default function Footer({ type }: Props) {
           About
         </Link>
       )}
-      {type === 'home' && (
-        <Link
-          href="/archive"
-          className="pb-1 hover-border-styles hv:hover:border-yellow-400"
-        >
-          Archive
-        </Link>
-      )}
     </footer>
   )
 }
