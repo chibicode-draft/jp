@@ -12,7 +12,7 @@ export default function Link({
 }: { old?: boolean } & JSX.IntrinsicElements['a']) {
   if (old) {
     return <a href={href} {...props} />
-  } else if (href.startsWith('/')) {
+  } else if (href && href.startsWith('/')) {
     return (
       <NextLink href={href}>
         <a {...props} />

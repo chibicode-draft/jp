@@ -1,16 +1,9 @@
-const path = require('path')
 const oldPosts = require('./src/contents/oldPosts.json')
 const hiddenPosts = require('./src/contents/hiddenPosts.json')
 
 module.exports = {
-  webpack(config) {
-    config.resolve.alias = Object.assign({}, config.resolve.alias, {
-      src: path.resolve(__dirname, 'src'),
-    })
-
-    return config
-  },
   experimental: {
+    jsconfigPaths: true,
     async rewrites() {
       return [
         {

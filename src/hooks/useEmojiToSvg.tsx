@@ -1,7 +1,7 @@
 import { createContext, useContext } from 'react'
 
 export type EmojiToSvg = {
-  [key: string]: string
+  [key: string]: string | undefined
 }
 
 export const EmojiToSvgContext = createContext<EmojiToSvg>({})

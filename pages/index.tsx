@@ -2,8 +2,8 @@ import React from 'react'
 import Layout from 'src/components/Layout'
 import postGetStaticProps, { PostProps } from 'src/lib/postGetStaticProps'
 import FeaturedPostLink from 'src/components/FeaturedPostLink'
-import featuredPosts from 'src/contents/featuredPosts.json'
-import postData from 'src/contents/postData.json'
+import featuredPosts from 'src/contents/featuredPostsTyped'
+import postData from 'src/contents/postDataTyped'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
 
@@ -26,7 +26,7 @@ export default function Page({ emojiToSvg }: PostProps) {
           key={href}
           href={href}
           title={postData[href]['title']}
-          description={postData[href]['description']}
+          description={postData[href]['description'] || ''}
           date={postData[href]['date']}
         ></FeaturedPostLink>
       ))}

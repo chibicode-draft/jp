@@ -1,16 +1,16 @@
 import React from 'react'
-import postData from 'src/contents/postData.json'
+import postData from 'src/contents/postDataTyped'
 import Date from 'src/components/Date'
 import PostTitle from 'src/components/PostTitle'
 import Emoji from 'src/components/Emoji'
 import { P, Img } from 'src/components/Tags'
 import FeaturedPostLink from 'src/components/FeaturedPostLink'
-import featuredPosts from 'src/contents/featuredPosts.json'
+import featuredPosts from 'src/contents/featuredPostsTyped'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL } from 'src/lib/constants'
 
 type Props = {
-  href: string
+  href: keyof typeof postData
   children: React.ReactNode
 }
 
@@ -67,7 +67,7 @@ export default function Post({ href, children }: Props) {
             key={featuredPost.href}
             href={featuredPost.href}
             title={postData[featuredPost.href]['title']}
-            description={postData[featuredPost.href]['description']}
+            description={postData[featuredPost.href]['description'] || ''}
             date={postData[featuredPost.href]['date']}
           ></FeaturedPostLink>
         ))}
