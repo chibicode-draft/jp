@@ -79,9 +79,7 @@ export default function Page({ emojiToSvg }: PostProps) {
           </Li>
           <Li>
             ソースコードは一部
-            <A href="https://github.com/chibicode/jp.chibicode.com">
-              GitHubで公開しています
-            </A>
+            <A href="https://github.com/chibicode/jp">GitHubで公開しています</A>
             。
           </Li>
           <Li>文章の著作権は著者の上杉周作にあります。</Li>
