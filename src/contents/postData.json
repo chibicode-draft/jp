@@ -1,4 +1,9 @@
 {
+  "/nextjs-incremental-static-regeneration": {
+    "title": "Next.js「インクリメンタル静的再生成(β)」リリース記念祭",
+    "description": "Next.js 9.4で導入された、一度静的に生成したページを再度生成する機能を紹介",
+    "date": [2020, 5, 20]
+  },
   "https://yj.chibicode.com/": {
     "title": "コンピュータサイエンスと魔法のYコンビネータ",
     "description": "プログラミング未経験者向けの、邪道なコンピュータサイエンスの入門書",
