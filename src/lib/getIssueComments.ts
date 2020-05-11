@@ -7,7 +7,7 @@ export default async function getIssueComments(): Promise<Comment[]> {
   const res = await fetch('https://api.github.com/graphql', {
     method: 'POST',
     headers: {
-      Authorization: ` barer ${process.env.GITHUB_TOKEN}`,
+      Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
     },
     body: JSON.stringify({
       query: `query {
