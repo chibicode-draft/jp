@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from 'src/components/Layout'
-import postGetStaticProps, { PostProps } from 'src/lib/postGetStaticProps'
+import postGetStaticProps, { PostBaseProps } from 'src/lib/postGetStaticProps'
 import FeaturedPostLink from 'src/components/FeaturedPostLink'
 import featuredPosts from 'src/contents/featuredPostsTyped'
 import postData from 'src/contents/postDataTyped'
@@ -9,7 +9,7 @@ import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
 
 export const getStaticProps = postGetStaticProps(Page)
 
-export default function Page({ emojiToSvg }: PostProps) {
+export default function Page({ emojiToSvg }: PostBaseProps) {
   return (
     <Layout type="home" emojiToSvg={emojiToSvg}>
       <Head>

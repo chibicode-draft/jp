@@ -3,7 +3,6 @@ const hiddenPosts = require('./src/contents/hiddenPosts.json')
 
 module.exports = {
   experimental: {
-    jsconfigPaths: true,
     async rewrites() {
       return [
         {

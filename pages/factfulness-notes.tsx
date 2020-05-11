@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from 'src/components/Layout'
-import postGetStaticProps, { PostProps } from 'src/lib/postGetStaticProps'
+import postGetStaticProps, { PostBaseProps } from 'src/lib/postGetStaticProps'
 import Post from 'src/components/Post'
 import {
   P,
@@ -19,7 +19,7 @@ import TwitterEmbed from 'src/components/TwitterEmbed'
 
 export const getStaticProps = postGetStaticProps(Page)
 
-export default function Page({ emojiToSvg }: PostProps) {
+export default function Page({ emojiToSvg }: PostBaseProps) {
   return (
     <Layout type="post" emojiToSvg={emojiToSvg}>
       <Post href="/factfulness-notes">

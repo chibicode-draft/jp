@@ -1,9 +1,4 @@
 {
-  "/nextjs-static-generation-reactdomserver": {
-    "title": "Next.jsによる静的生成の小技: ReactDOMServerを使ってみる",
-    "description": "getStaticPropsを使って外部SVGをインライン化する",
-    "date": [2020, 5, 17]
-  },
   "https://yj.chibicode.com/": {
     "title": "コンピュータサイエンスと魔法のYコンビネータ",
     "description": "プログラミング未経験者向けの、邪道なコンピュータサイエンスの入門書",

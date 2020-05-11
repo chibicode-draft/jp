@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Layout from 'src/components/Layout'
-import postGetStaticProps, { PostProps } from 'src/lib/postGetStaticProps'
+import postGetStaticProps, { PostBaseProps } from 'src/lib/postGetStaticProps'
 import RegularPostLink from 'src/components/RegularPostLink'
 import PostTitle from 'src/components/PostTitle'
 import oldPosts from 'src/contents/oldPostsTyped'
@@ -12,7 +12,7 @@ import { Hr } from 'src/components/Tags'
 
 export const getStaticProps = postGetStaticProps(Page)
 
-export default function Page({ emojiToSvg }: PostProps) {
+export default function Page({ emojiToSvg }: PostBaseProps) {
   const [otherVisbile, setOtherVisible] = useState(false)
   return (
     <Layout type="archive" emojiToSvg={emojiToSvg}>

@@ -31,7 +31,9 @@ export default function Post({ href, children }: Props) {
         <meta name="description" content={postData[href]['description']} />
         <meta
           property="og:image"
-          content={`${SITE_URL}${postData[href]['ogImage']}`}
+          content={`${SITE_URL}${
+            postData[href]['ogImage'] || '/images/og.png'
+          }`}
         />
       </Head>
       <article className="py-4 my-12">
@@ -43,11 +45,13 @@ export default function Post({ href, children }: Props) {
           {postData[href]['description']}
         </h4>
         <div className="leading-loose">
-          <Img
-            coverImage
-            src={postData[href]['ogImage']}
-            alt={postData[href]['title']}
-          />
+          {postData[href]['ogImage'] && (
+            <Img
+              coverImage
+              src={postData[href]['ogImage']}
+              alt={postData[href]['title']}
+            />
+          )}
           {children}
         </div>
       </article>
