@@ -11,4 +11,4 @@ yarn dev
 
 - 絵文字は[Twemoji](https://github.com/twitter/twemoji)を利用しています(CC-BY 4.0)。
 - 文章の著作権は著者の上杉周作にあります。
-- 文章以外のソースコードは[MITライセンス](license-text.md)で公開しています。
+- 文章以外のソースコードは[MITライセンス](license-code.md)で公開しています。
