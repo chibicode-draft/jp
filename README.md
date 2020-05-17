@@ -7,7 +7,7 @@ yarn install
 yarn dev
 ```
 
-## このサイトについて
+## 当サイトについて
 
 - 絵文字は[Twemoji](https://github.com/twitter/twemoji)を利用しています(CC-BY 4.0)。
 - 文章の著作権は著者の上杉周作にあります。
