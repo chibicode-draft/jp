@@ -1,4 +1,4 @@
-# [https://jp.chibicode.com/](https://jp.chibicode.com/)
+# 🌾 [https://jp.chibicode.com/](https://jp.chibicode.com/) 🙇🏻
 
 ## 開発用コマンド
 
