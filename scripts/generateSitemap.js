@@ -9,6 +9,7 @@ const sitemap = new SitemapStream({ hostname: 'https://jp.chibicode.com' })
 
 const writeStream = createWriteStream('./public/sitemap.xml')
 sitemap.pipe(writeStream)
+sitemap.write('/')
 ;[...oldPosts, ...featuredPosts, ...hiddenPosts]
   .filter(({ href }) => href.startsWith('/'))
   .forEach(({ href }) => {
