@@ -48,6 +48,22 @@ export default function Meta({ type }: Props) {
       <meta name="msapplication-TileColor" content="#f6e05e" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#ffffff" />
+      {/* Preload */}
+      <link
+        rel="preload"
+        href="https://chibicode.com/iosevka/woff2/iosevka-slab-regular.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      {/* Prefetch */}
+      <link
+        rel="prefetch"
+        href="https://chibicode.com/iosevka/woff2/iosevka-slab-bold.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
     </Head>
   )
 }

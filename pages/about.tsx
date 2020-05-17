@@ -24,7 +24,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
           <img
             src="/images/chibicode.jpg"
             alt="上杉周作"
-            className="rounded-full w-56 block mx-auto shadow-soft"
+            className="rounded-full w-56 h-56 block mx-auto shadow-soft"
           />
         </div>
         <H2>上杉周作</H2>
