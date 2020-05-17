@@ -3,7 +3,7 @@ import postData from 'src/contents/postDataTyped'
 import Date from 'src/components/Date'
 import PostTitle from 'src/components/PostTitle'
 import Emoji from 'src/components/Emoji'
-import { P, Img } from 'src/components/Tags'
+import { P, A, Img } from 'src/components/Tags'
 import FeaturedPostLink from 'src/components/FeaturedPostLink'
 import featuredPosts from 'src/contents/featuredPostsTyped'
 import Head from 'next/head'
@@ -56,13 +56,15 @@ export default function Post({ href, children }: Props) {
         </div>
       </article>
       <div className="py-16">
-        <P className="text-center text-sm">ありがとうございました</P>
+        <P className="text-center">ありがとうございました</P>
         <div className="my-6 flex justify-center text-2xl" role="separator">
           <Emoji className="mx-2">🙇🏻</Emoji>
           <Emoji className="mx-2">🙇🏻</Emoji>
           <Emoji className="mx-2">🙇🏻</Emoji>
         </div>
-        <P className="text-center text-sm">↓ 他の記事もよければどうぞ ↓</P>
+        <P className="text-center">
+          <A href="/about">著者のプロフィール・連絡先はこちら</A>
+        </P>
       </div>
       {featuredPosts
         .filter((featuredPost) => href !== featuredPost.href)
