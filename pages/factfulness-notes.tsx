@@ -1449,15 +1449,26 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
           </A>
         </P>
         <TwitterEmbed id="1077354202848845824" />
-        <H2>追記(2019/07/10):</H2>
+        <H3>追記(2019/07/10):</H3>
         <P>
           国ごとの「世界はどんどん悪くなっている」と答えた人の割合のグラフについて、元データを調べたので共有します。
         </P>
-
         <Img
           src="/images/factfulness-notes/factfulness-graph-annotated.png"
           alt="「世界はどんどん悪くなっている」と答えた人の割合のグラフ"
         />
+        <H3>追記(2020/05/25):</H3>
+        <P>
+          32刷で大幅に修正を行いました。 (
+          <A href="https://factfulness-source.chibicode.com/errata">正誤表</A>・
+          <A href="https://github.com/chibicode/factfulness-source.chibicode.com/commit/661540660ea79537c20cd7151733675a75f5b265">
+            差分
+          </A>
+          ) 。修正には
+          <A href="https://www.poc39.com/archives/5662">こちらの記事</A>と
+          <A href="https://www.poc39.com/archives/5665">こちらの記事</A>
+          を参考にしました。ご指摘ありがとうございます！
+        </P>
       </Post>
     </Layout>
   )
