@@ -50,7 +50,7 @@ export default function Header({ type }: Props) {
             </span>
           </Link>
         )}
-        {type === 'home' && <span className="inline-flex pb-1">上杉周作</span>}
+        {type === 'home' && <h1 className="inline-flex pb-1">上杉周作</h1>}
         {type !== 'home' && type !== 'about' && (
           <Link
             href="/about"
