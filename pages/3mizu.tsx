@@ -78,7 +78,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
             新しいことにチャレンジする前に、新しいことにチャレンジ
             <strong>する計画を立てること</strong>が必要
           </Li>
-          <Li>そう思った時間を計測する</Li>
+          <Li>計画に費やせた時間がどれだけ生まれたかを計測する</Li>
           <Li>
             やりたいことは暇から生まれるが、暇な時間を無駄にしていては生まれない
           </Li>
