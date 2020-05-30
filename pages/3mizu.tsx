@@ -75,11 +75,16 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         </H2>
         <Ul>
           <Li>
+            <Emoji label="ban">✅</Emoji>{' '}
             新しいことにチャレンジする前に、新しいことにチャレンジ
             <strong>する計画を立てること</strong>が必要
           </Li>
-          <Li>計画に費やせた時間がどれだけ生まれたかを計測する</Li>
           <Li>
+            <Emoji label="ban">✅</Emoji>{' '}
+            計画に費やせた時間がどれだけ生まれたかを計測する
+          </Li>
+          <Li>
+            <Emoji label="ban">✅</Emoji>{' '}
             やりたいことは暇から生まれるが、暇な時間を無駄にしていては生まれない
           </Li>
         </Ul>
@@ -98,12 +103,13 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
             資料はNotionで管理する)
           </Li>
           <Li>
-            作業中は音楽を聞かないか、
+            <Emoji label="ban">✅</Emoji> 作業中は音楽を聞かないか、
             <A href="https://www.amazon.com/Calming-Waves-Pebble-Beach/dp/B004624KHM">
               聞くのであれば波の音のみ
             </A>
           </Li>
           <Li>
+            <Emoji label="ban">✅</Emoji>{' '}
             <A href="https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AD%E3%83%BB%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF">
               ポモドーロ・テクニック
             </A>
