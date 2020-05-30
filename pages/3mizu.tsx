@@ -24,7 +24,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         </P>
         <Ul>
           <Li>
-            <Emoji label="ban">🈲</Emoji> Twitter (仕事のみ)
+            <Emoji label="ban">🈲</Emoji> Twitter (仕事のみ。エゴサはしない)
           </Li>
           <Li>
             <Emoji label="ban">🈲</Emoji> Facebook (Messengerも)
