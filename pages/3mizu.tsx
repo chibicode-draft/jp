@@ -3,7 +3,7 @@ import Layout from 'src/components/Layout'
 import postGetStaticProps, { PostBaseProps } from 'src/lib/postGetStaticProps'
 import Post from 'src/components/Post'
 import Emoji from 'src/components/Emoji'
-import { Strong, P, H2, Ul, Ol, Li, A } from 'src/components/Tags'
+import { P, H2, Ul, Ol, Li, A } from 'src/components/Tags'
 
 export const getStaticProps = postGetStaticProps(Page)
 
