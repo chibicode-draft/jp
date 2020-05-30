@@ -27,7 +27,7 @@ export default function Header({ type }: Props) {
               About
             </Link>
           </div>
-          <div className="text-center pb-1 text-5xl">
+          <div className="text-center pb-2 text-5xl">
             <Emoji className="pr-1">🌾</Emoji>
             <Emoji className="pl-1">🙇🏻</Emoji>
           </div>
@@ -41,7 +41,7 @@ export default function Header({ type }: Props) {
       >
         {type !== 'home' && (
           <Link href="/" className="group">
-            <span className="block text-3xl pb-2">
+            <span className="block text-3xl pb-3">
               <Emoji className="pr-1">🌾</Emoji>
               <Emoji className="pl-1">🙇🏻</Emoji>
             </span>
