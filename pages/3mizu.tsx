@@ -108,13 +108,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
               聞くのであれば波の音のみ
             </A>
           </Li>
-          <Li>
-            <Emoji label="ban">✅</Emoji>{' '}
-            <A href="https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AD%E3%83%BB%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF">
-              ポモドーロ・テクニック
-            </A>
-            の25分間の部分だけを使う (休憩は無制限)
-          </Li>
+          <Li>常にサイトをStylusのブラックリストに入れる</Li>
         </Ul>
       </Post>
     </Layout>
