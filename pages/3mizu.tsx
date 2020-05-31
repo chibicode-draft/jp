@@ -75,23 +75,23 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         </H2>
         <Ul>
           <Li>
-            <Emoji label="ban">✅</Emoji>{' '}
+            <Emoji label="check">✅</Emoji>{' '}
             新しいことにチャレンジする前に、新しいことにチャレンジ
             <strong>する計画を立てること</strong>が必要
           </Li>
           <Li>
-            <Emoji label="ban">✅</Emoji>{' '}
+            <Emoji label="check">✅</Emoji>{' '}
             計画に費やせた時間がどれだけ生まれたかを計測する
           </Li>
           <Li>
-            <Emoji label="ban">✅</Emoji>{' '}
+            <Emoji label="check">✅</Emoji>{' '}
             やりたいことは暇から生まれるが、暇な時間を無駄にしていては生まれない
           </Li>
         </Ul>
         <H2>作業中に心がけること</H2>
         <Ul>
           <Li>
-            <Emoji label="ban">✅</Emoji> できる限り全てのタスクを
+            <Emoji label="check">✅</Emoji> できる限り全てのタスクを
             <A href="https://culturedcode.com/">Things</A>と
             <A href="https://www.notion.so/">Notion</A>で管理する (1.
             新しいタスクは全てThingsに入れる。2.{' '}
@@ -103,14 +103,20 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
             資料はNotionで管理する)
           </Li>
           <Li>
-            <Emoji label="ban">✅</Emoji> 作業中は音楽を聞かないか、
+            <Emoji label="check">✅</Emoji> 作業中は音楽を聞かないか、
             <A href="https://www.amazon.com/Calming-Waves-Pebble-Beach/dp/B004624KHM">
               聞くのであれば波の音のみ
             </A>
           </Li>
           <Li>
-            <Emoji label="ban">✅</Emoji>{' '}
+            <Emoji label="check">✅</Emoji>{' '}
             常にサイトをStylusのブラックリストに入れる
+          </Li>
+        </Ul>
+        <H2>その他の心がけ</H2>
+        <Ul>
+          <Li>
+            <Emoji label="heart">❤️</Emoji> 心から幸せだと思えることに時間を使う
           </Li>
         </Ul>
       </Post>
