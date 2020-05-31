@@ -108,7 +108,10 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
               聞くのであれば波の音のみ
             </A>
           </Li>
-          <Li>常にサイトをStylusのブラックリストに入れる</Li>
+          <Li>
+            <Emoji label="ban">✅</Emoji>{' '}
+            常にサイトをStylusのブラックリストに入れる
+          </Li>
         </Ul>
       </Post>
     </Layout>
