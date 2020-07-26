@@ -1,6 +1,7 @@
 .emoji {
   height: 1em;
   vertical-align: text-bottom;
+  transform: translateY(-0.1em);
 }
 
 .emoji svg {
