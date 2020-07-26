@@ -1473,7 +1473,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <Ul>
           <Li>
             <Emoji>🟢</Emoji>{' '}
-            緑色(薄い緑から濃い緑まで)の国が2016年リオ五輪でメダルを獲得した国・地域です。
+            緑色(薄い緑から濃い緑まで)が2016年リオ五輪でメダルを獲得した国・地域です。
           </Li>
           <Li>
             <Emoji className="opacity-50">🔵</Emoji>{' '}
