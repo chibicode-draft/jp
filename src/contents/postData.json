@@ -3,7 +3,9 @@
     "title": "オリンピックのチンパンジークイズ",
     "description": "2016年リオ五輪にて、メダルを獲得した国・地域の数はいくつ？",
     "date": [2020, 7, 26],
-    "ogImage": "/images/olympic-medals/olympic-medals-og.png"
+    "ogImage": "/images/olympic-medals/olympic-medals-og.png",
+    "ogImageWidth": 2024,
+    "ogImageHeight": 1012
   },
   "https://yj.chibicode.com/": {
     "title": "コンピュータサイエンスと魔法のYコンビネータ",
@@ -14,7 +16,9 @@
     "title": "『ファクトフルネス』批判と知的誠実さ: 7万字の脚注が、たくさん読まれることはないけれど",
     "description": "『ファクトフルネス』へのよくある批判に対するわたしのコメントも多数掲載しています",
     "date": [2019, 3, 10],
-    "ogImage": "/images/factfulness-notes/og-v4.jpg"
+    "ogImage": "/images/factfulness-notes/og-v4.jpg",
+    "ogImageWidth": 2560,
+    "ogImageHeight": 1340
   },
   "https://twitter.com/chibicode/status/1093284280640331776": {
     "date": [2019, 2, 7],

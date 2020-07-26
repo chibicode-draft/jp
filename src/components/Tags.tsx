@@ -86,7 +86,7 @@ export function Figure(props: JSX.IntrinsicElements['figure']) {
 }
 
 export function Table(props: JSX.IntrinsicElements['table']) {
-  return <table className="font-mono text-sm w-full" {...props} />
+  return <table className="my-6 font-mono text-sm w-full" {...props} />
 }
 
 export function Th(props: JSX.IntrinsicElements['th']) {
@@ -108,25 +108,27 @@ export function Td(props: JSX.IntrinsicElements['th']) {
 }
 
 export function Img({
-  width,
+  size,
   shadowHover,
   caption,
   coverImage,
+  href,
   ...props
 }: {
-  width?: 'sm' | 'md'
+  size?: 'sm' | 'md'
   caption?: React.ReactNode
   coverImage?: boolean
+  href?: string
   shadowHover?: boolean
 } & JSX.IntrinsicElements['img']) {
   const imgTag = (
     <img
       className={cn('my-16 block mx-auto shadow-soft', {
-        'max-w-sm': width === 'sm',
-        'max-w-md': width === 'md',
-        'max-w-full': width !== 'sm' && width !== 'md',
-        'w-full': width === 'sm' || width === 'md',
-        'w-auto': width !== 'sm' && width !== 'md',
+        'max-w-sm': size === 'sm',
+        'max-w-md': size === 'md',
+        'max-w-full': size !== 'sm' && size !== 'md',
+        'w-full': size === 'sm' || size === 'md',
+        'w-auto': size !== 'sm' && size !== 'md',
         'hv:hover:shadow-large': shadowHover,
         'my-16': !caption && !coverImage,
         'mb-6': caption && !coverImage,
@@ -136,12 +138,14 @@ export function Img({
     />
   )
 
+  const imgTagWithLink = href ? <A href={href}>{imgTag}</A> : imgTag
+
   return caption ? (
     <figure className="my-16">
-      {imgTag}
+      {imgTagWithLink}
       <figcaption className="text-sm text-center">{caption}</figcaption>
     </figure>
   ) : (
-    <P>{imgTag}</P>
+    <P>{imgTagWithLink}</P>
   )
 }
