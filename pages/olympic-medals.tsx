@@ -1702,6 +1702,13 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <P>
           新型コロナウイルスによって2021年のオリンピック開催が危ぶまれている今、覚えておきたい事実です。
         </P>
+        <P>
+          追記: わたしが共訳した
+          <A href="https://factquiz.chibicode.com/">
+            『ファクトフルネス』のチンパンジークイズはこちら
+          </A>
+          。
+        </P>
       </Post>
     </Layout>
   )
