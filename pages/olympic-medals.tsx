@@ -1708,6 +1708,10 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
           </A>
           。
         </P>
+        <H2>
+          <Emoji>🐦</Emoji> リツイートして下さると嬉しいです
+        </H2>
+        <TwitterEmbed id="1287246254376853504" />
       </Post>
     </Layout>
   )
