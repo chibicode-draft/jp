@@ -21,7 +21,9 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
           <A href="https://twitter.com/chibicode">@chibicode</A>
           です。
         </P>
-        <P>昨日、ツイッターでこんなクイズを出題しました。</P>
+        <P>
+          東京オリンピック開催まであと1年ということで、ツイッターでこんなクイズを出題しました。
+        </P>
         <P>
           <strong>
             【質問】2016年リオ五輪にて、いずれかのメダルをひとつでも獲得した国・地域の数はいくつでしょう？
