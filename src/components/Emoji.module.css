@@ -1,8 +1,13 @@
 .emoji {
   height: 1em;
   vertical-align: text-bottom;
+  transform: translateY(-0.05em);
 }
 
 .emoji svg {
   height: 100%;
+}
+
+:global(.leading-normal) .emoji {
+  transform: translateY(-0.1em);
 }

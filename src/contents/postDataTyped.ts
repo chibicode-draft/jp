@@ -6,6 +6,8 @@ type PostData = Record<
     title: string
     description?: string
     ogImage?: string
+    ogImageWidth?: number
+    ogImageHeight?: number
     date: number[]
   }
 >

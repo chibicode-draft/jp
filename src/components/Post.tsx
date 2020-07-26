@@ -36,6 +36,18 @@ export default function Post({ href, children }: Props) {
             postData[href]['ogImage'] || '/images/og.png'
           }`}
         />
+        {postData[href]['ogImageWidth'] && (
+          <meta
+            property="og:image:width"
+            content={`${SITE_URL}${postData[href]['ogImageWidth']}`}
+          />
+        )}
+        {postData[href]['ogImageHeight'] && (
+          <meta
+            property="og:image:height"
+            content={`${SITE_URL}${postData[href]['ogImageHeight']}`}
+          />
+        )}
       </Head>
       <article className="py-4 my-12">
         <Date date={postData[href]['date']} />
@@ -55,6 +67,8 @@ export default function Post({ href, children }: Props) {
               coverImage
               src={postData[href]['ogImage']}
               alt={postData[href]['title']}
+              width={postData[href]['ogImageWidth']}
+              height={postData[href]['ogImageHeight']}
             />
           )}
           {children}

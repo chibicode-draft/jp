@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'src/components/Link'
 import Emoji from 'src/components/Emoji'
 import cn from 'classnames'
+import styles from 'src/components/Tags.module.css'
 
 export function E({ children, label }: { children: string; label?: string }) {
   return (
@@ -84,26 +85,50 @@ export function Figure(props: JSX.IntrinsicElements['figure']) {
   return <figure className="my-6" {...props} />
 }
 
+export function Table(props: JSX.IntrinsicElements['table']) {
+  return <table className="my-6 font-mono text-sm w-full" {...props} />
+}
+
+export function Th(props: JSX.IntrinsicElements['th']) {
+  return (
+    <th
+      className={cn('text-left bg-gray-100 px-1 sm:px-2 py-1', styles.th)}
+      {...props}
+    />
+  )
+}
+
+export function Td(props: JSX.IntrinsicElements['th']) {
+  return (
+    <td
+      className="border-b border-gray-200 px-1 sm:px-2 py-1 whitespace-no-wrap"
+      {...props}
+    />
+  )
+}
+
 export function Img({
-  width,
+  size,
   shadowHover,
   caption,
   coverImage,
+  href,
   ...props
 }: {
-  width?: 'sm' | 'md'
+  size?: 'sm' | 'md'
   caption?: React.ReactNode
   coverImage?: boolean
+  href?: string
   shadowHover?: boolean
 } & JSX.IntrinsicElements['img']) {
   const imgTag = (
     <img
       className={cn('my-16 block mx-auto shadow-soft', {
-        'max-w-sm': width === 'sm',
-        'max-w-md': width === 'md',
-        'max-w-full': width !== 'sm' && width !== 'md',
-        'w-full': width === 'sm' || width === 'md',
-        'w-auto': width !== 'sm' && width !== 'md',
+        'max-w-sm': size === 'sm',
+        'max-w-md': size === 'md',
+        'max-w-full': size !== 'sm' && size !== 'md',
+        'w-full': size === 'sm' || size === 'md',
+        'w-auto': size !== 'sm' && size !== 'md',
         'hv:hover:shadow-large': shadowHover,
         'my-16': !caption && !coverImage,
         'mb-6': caption && !coverImage,
@@ -113,12 +138,14 @@ export function Img({
     />
   )
 
+  const imgTagWithLink = href ? <A href={href}>{imgTag}</A> : imgTag
+
   return caption ? (
     <figure className="my-16">
-      {imgTag}
+      {imgTagWithLink}
       <figcaption className="text-sm text-center">{caption}</figcaption>
     </figure>
   ) : (
-    <P>{imgTag}</P>
+    <P>{imgTagWithLink}</P>
   )
 }

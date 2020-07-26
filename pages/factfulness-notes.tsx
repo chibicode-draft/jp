@@ -113,7 +113,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <Img
           src="/images/factfulness-notes/factfulness.jpg"
           alt="Factfulness ファクトフルネス"
-          width="sm"
+          size="sm"
         />
         <P>
           わたしが共訳した『
@@ -144,7 +144,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
               という題名で公開されている
             </>
           }
-          width="md"
+          size="md"
         />
         <P>
           本にも脚注はあるが、それは抜粋にすぎない。
@@ -246,7 +246,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <Img
           src="/images/factfulness-notes/graph-3.png"
           alt="3 Graphs"
-          width="sm"
+          size="sm"
         />
         <P>
           なぜそうなっているかというと、どのグラフも「
@@ -278,7 +278,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <Img
           src="/images/factfulness-notes/brazil-graph.png"
           alt="Brazil"
-          width="md"
+          size="md"
         />
         <P>
           「56ページのブラジルの所得格差のグラフ(上の画像)で、縦軸の下限がゼロでないのは恣意的なのでは？」という批判については
@@ -295,7 +295,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
           </A>
         </P>
 
-        <Img src="/images/factfulness-notes/g12.png" width="sm" alt="Brazil" />
+        <Img src="/images/factfulness-notes/g12.png" size="sm" alt="Brazil" />
         <P>
           「79ページの核兵器のグラフ(上の画像)で、単位を千発にしているのは、核兵器の数を少なく見せていて恣意的なのでは？」という批判については
           <A href="https://factfulness-source.chibicode.com/?p=79-graph-nuclear-arms">
@@ -327,7 +327,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <Img
           src="/images/factfulness-notes/doubling-graph.png"
           alt="Brazil"
-          width="md"
+          size="md"
         />
         <P>
           「本書を通して、所得を表す軸が対数目盛(上の画像。125ページより)なのは恣意的なのでは？」という批判については、本書の第3章にも、
@@ -347,7 +347,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
           」という批判も多かった。
         </P>
 
-        <Img src="/images/factfulness-notes/g7.png" alt="死刑" width="sm" />
+        <Img src="/images/factfulness-notes/g7.png" alt="死刑" size="sm" />
         <P>
           世界の国の半数以上が死刑を廃止しており、廃止の流れはこれからも続くとはいえ、日本や中国、イスラム圏では死刑制度に対する支持は根強い。
         </P>
@@ -417,7 +417,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         </P>
         <Img
           src="/images/factfulness-notes/g27.png"
-          width="sm"
+          size="sm"
           caption={
             <>
               ちなみに第1刷では「絶滅の危険度が計測されている種の数」というタイトルだったが、
@@ -864,7 +864,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <Img
           src="/images/factfulness-notes/factfulness-size.jpg"
           alt="Factfulness ファクトフルネス"
-          width="md"
+          size="md"
         />
         <P>
           『ファクトフルネス』編集者の中川さんは、なんとか本書を400ページ以内におさめるため、ビジネス書にあまり使われないA5サイズで本書を刷った(参考記事はこちら:{' '}
@@ -1019,7 +1019,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <Img
           src="/images/factfulness-notes/feedback.gif"
           alt="Factfulness ファクトフルネス"
-          width="sm"
+          size="sm"
         />
         <P>
           また、ウェブ脚注の日本語版は、
@@ -1057,7 +1057,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         </P>
         <Img
           src="/images/factfulness-notes/slack-convo.png"
-          width="md"
+          size="md"
           alt="Factfulness Detailed Notes"
         />
         <P>
@@ -1154,7 +1154,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
 
         <Img
           src="/images/factfulness-notes/slack-dollar-street.jpg"
-          width="md"
+          size="md"
           alt="Dollar Street"
         />
         <P>
