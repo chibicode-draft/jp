@@ -58,8 +58,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
           33%)の正解率です。正解から最も遠い「39以下」を選んだ方は54%もいました。あくまでツイッター上の調査ですが。
         </P>
         <H2>
-          <Emoji>🏅</Emoji>
-          2016年リオ五輪にてメダルを獲得した86の国・地域
+          <Emoji>🏅</Emoji> 2016年リオ五輪にてメダルを獲得した86の国・地域
         </H2>
         <P>
           出典:{' '}
