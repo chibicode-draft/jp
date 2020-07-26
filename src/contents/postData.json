@@ -1,7 +1,7 @@
 {
   "/olympic-medals": {
-    "title": "2016年リオ五輪にて、メダルを獲得した国・地域の数はいくつ？",
-    "description": "『ファクトフルネス』風の3択クイズ",
+    "title": "オリンピックのチンパンジークイズ",
+    "description": "2016年リオ五輪にて、メダルを獲得した国・地域の数はいくつ？",
     "date": [2020, 7, 26],
     "ogImage": "/images/olympic-medals/olympic-medals-og.png"
   },

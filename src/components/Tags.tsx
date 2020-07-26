@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'src/components/Link'
 import Emoji from 'src/components/Emoji'
 import cn from 'classnames'
+import styles from 'src/components/Tags.module.css'
 
 export function E({ children, label }: { children: string; label?: string }) {
   return (
@@ -82,6 +83,28 @@ export function Blockquote(props: JSX.IntrinsicElements['blockquote']) {
 
 export function Figure(props: JSX.IntrinsicElements['figure']) {
   return <figure className="my-6" {...props} />
+}
+
+export function Table(props: JSX.IntrinsicElements['table']) {
+  return <table className="font-mono text-sm w-full" {...props} />
+}
+
+export function Th(props: JSX.IntrinsicElements['th']) {
+  return (
+    <th
+      className={cn('text-left bg-gray-100 px-1 sm:px-2 py-1', styles.th)}
+      {...props}
+    />
+  )
+}
+
+export function Td(props: JSX.IntrinsicElements['th']) {
+  return (
+    <td
+      className="border-b border-gray-200 px-1 sm:px-2 py-1 whitespace-no-wrap"
+      {...props}
+    />
+  )
 }
 
 export function Img({
