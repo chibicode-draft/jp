@@ -77,11 +77,6 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
             絵文字は<A href="https://github.com/twitter/twemoji">Twemoji</A>
             を利用しています(CC-BY 4.0)。
           </Li>
-          <Li>
-            ソースコードは一部
-            <A href="https://github.com/chibicode/jp">GitHubで公開しています</A>
-            。
-          </Li>
           <Li>文章の著作権は著者の上杉周作にあります。</Li>
           <Li>
             当サイトではGoogleアナリティクスを利用しており、トラフィックデータの収集のためにCookieを使用しています。データは(IPアドレスを含め)匿名で収集されており、個人を特定するものではありません。
