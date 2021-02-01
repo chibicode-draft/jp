@@ -66,6 +66,9 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <H3>このサイトについて</H3>
         <Ul>
           <Li>
+            当ブログの記事は個人の見解であり、所属する組織の公式見解ではありません。
+          </Li>
+          <Li>
             <E>🌾</E> <E>🙇🏻</E>{' '}
             は、「実るほど頭を垂れる稲穂かな」という意味です。
           </Li>
